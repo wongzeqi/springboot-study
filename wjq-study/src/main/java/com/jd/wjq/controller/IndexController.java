@@ -11,4 +11,9 @@ public class IndexController {
         return "index";
     }
 
+    @RequestMapping("/table")
+    public String table(){
+        return "table";
+    }
+
 }
